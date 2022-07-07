@@ -5,16 +5,11 @@ html{
 	width: 100%;
 }
 
-body{
-	background-image: url(../img/mapa.jpg);
-	width: 100%;
-}
-
 
 nav{
 	display: flex;
 	flex-direction: column-reverse;
-	background: linear-gradient(90deg, rgba(129,81,15,1) 0%, rgba(138,106,11,0.9868989832261029) 35%, rgba(246,246,246,1) 100%);
+	background: linear-gradient(90deg, rgba(238,238,238,0.9868989832261029) 2%, rgba(150,80,80,0.9868989832261029) 37%, rgba(231,191,11,0.9868989832261029) 100%, rgba(159,137,238,1) 1000%);
 }
 
 nav div{
@@ -66,7 +61,7 @@ div img{
 }
 
 footer{
-	background: linear-gradient(90deg, rgba(129,81,15,1) 0%, rgba(138,106,11,0.9868989832261029) 35%, rgba(246,246,246,1) 100%);
+	background: linear-gradient(90deg, rgba(238,238,238,0.9868989832261029) 2%, rgba(150,80,80,0.9868989832261029) 37%, rgba(231,191,11,0.9868989832261029) 100%, rgba(159,137,238,1) 1000%);
 	width: 100%;
 }
 
@@ -94,6 +89,13 @@ footer section{
 	text-align: center;
 	background-color: rgba(56, 3, 3,0.2)
 }
+
+.bodyImg{
+	background-image: url(../img/mapa.jpg);
+	background-size:cover;
+	width: 100%;
+}
+
 
 .bgDarkSize{
 	background-color: rgb(56, 3, 3);
@@ -146,7 +148,7 @@ footer section{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: white
 }
 
@@ -154,7 +156,7 @@ footer section{
 	filter: brightness(1.1);
 	mix-blend-mode: multiply;
 	text-align: center;
-	width: 100%;
+	width: 50%;
 }
 
 
